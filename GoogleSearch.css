@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* Header & Logo */
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 300px;
+}
+
+/* Light Grey Top Search Box */
+.search-box {
+    background-color: #918b8b;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.search-box p {
+    margin-bottom: 8px;
+}
+
+.search-input {
+    width: 280px;
+    padding: 2px;
+    margin-bottom: 8px;
+}
+
+.search-box button {
+    padding: 2px 6px;
+    margin: 0 2px;
+}
+
+/* Three Columns Layout Container */
+.columns-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 15px 10px;
+    line-height: 1.6;
+}
+
+/* Column Background Colors */
+.col-left {
+    background-color: #7ee0d2; 
+}
+
+.col-middle {
+    background-color: #70c4b5; /* Medium teal shade */
+}
+
+.col-right {
+    background-color: #62a89b; /* Darker muted green */
+}
+
+
+/* Links Styling */
+a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+/* Right Column Email Form */
+.col-right input {
+    width: 150px;
+    padding: 2px;
+    margin: 4px 0;
+}
+
+.col-right button {
+    padding: 1px 6px;
+}
+
+.archive-link {
+    margin-left: 5px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+}
