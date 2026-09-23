@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card Container */
+.login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+/* Header Elements */
+.card-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0f1419;
+}
+
+.twitter-logo {
+    width: 32px;
+    height: auto;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f1419;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+/* Shared Button Styles */
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    transition: background-color 0.2s;
+}
+
+.btn-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+/* Outline Buttons (Google, Apple, Forgot Password) */
+.btn-outline {
+    background-color: #ffffff;
+    border: 1px solid #cfd9de;
+    color: #0f1419;
+}
+
+.btn-outline:hover {
+    background-color: #e6e6e6;
+}
+
+.btn-apple {
+    font-weight: 700;
+}
+
+/* Divider with 'or' */
+.divider {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #eff3f4;
+    line-height: 0.1em;
+    margin: 15px 0 25px 0;
+}
+
+.divider span {
+    background: #ffffff;
+    padding: 0 10px;
+    color: #0f1419;
+    font-size: 15px;
+}
+
+/* Form Controls */
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 100%;
+    height: 56px;
+    padding: 12px 16px;
+    border: 1px solid #cfd9de;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #1d9bf0;
+}
+
+/* Black Primary Button (Next) */
+.btn-black {
+    background-color: #0f1419;
+    border: none;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.btn-black:hover {
+    background-color: #272c30;
+}
+
+.btn-forgot {
+    margin-bottom: 40px;
+}
+
+/* Footer Links */
+.card-footer p {
+    font-size: 15px;
+    color: #536471;
+}
+
+.card-footer a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
