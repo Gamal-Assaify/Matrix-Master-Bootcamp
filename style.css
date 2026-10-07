@@ -1,0 +1,23 @@
+/* Custom Styles for Helping Hands Project */
+
+/* Logo styling */
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Card hover animation */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Table aesthetic tweaks */
+.table th {
+  letter-spacing: 0.5px;
+}
